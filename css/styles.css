@@ -1,0 +1,23 @@
+body{
+    background-color: #2B3133;
+}
+
+.nav-top{
+    background-color: #db6415 !important;
+}
+
+.nav-link{
+    color: white !important;
+    background-color: #645a52 !important;
+    margin: 0.3em !important;
+    border-radius: 5px !important;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #645a52 !important;
+    margin: 0.3em !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    border-color: white !important;
+}
