@@ -21,3 +21,14 @@ body{
     font-weight: bold !important;
     border-color: white !important;
 }
+
+footer{
+    color: white !important;
+    justify-content: center;
+    text-align: center;
+    background-color: #645a52;
+}
+
+video{
+    /* width: 100%; */
+}
