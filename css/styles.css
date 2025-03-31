@@ -22,12 +22,16 @@ body{
     border-color: white !important;
 }
 
-.carousel-caption{
-    background-color: rgba(82, 77, 77, 0.739) !important;
-    /* width: 100% !important; */
-    
-}
 
+.carousel-caption {
+    background-color: rgba(82, 77, 77, 0.739) !important;
+    width: 100%;
+    position: absolute; /* Makes sure it's positioned over the image */
+    
+    left: 0;
+    text-align: center; /* Centers the text */
+    color: white; /* Ensures the text is visible */
+}
 footer{
     color: white !important;
     justify-content: center;
