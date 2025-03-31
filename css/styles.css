@@ -22,6 +22,12 @@ body{
     border-color: white !important;
 }
 
+.carousel-caption{
+    background-color: rgba(82, 77, 77, 0.739) !important;
+    /* width: 100% !important; */
+    
+}
+
 footer{
     color: white !important;
     justify-content: center;
@@ -29,6 +35,33 @@ footer{
     background-color: #645a52;
 }
 
-video{
-    /* width: 100%; */
+.divisao{
+    background-color: #db6415 !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 2em !important;
+}
+
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1% !important;
+}
+
+.card{
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+}
+
+.sec-contact{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    background-color: whitesmoke;
+}
+
+#logo{
+    width: 7% !important;
+    border-radius: 50% !important;
 }

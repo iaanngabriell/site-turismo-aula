@@ -5,76 +5,187 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Turismo Tocantins</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm nav-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="javascript:void(0)">
-                <!-- <img src="img/logo.jpeg" alt="logo">  -->
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Pacotes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Contatos</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="text" placeholder="Pesquisar">
-                  <button class="btn btn-primary" type="button">Buscar</button>
-                </form>
-              </div>
+                <img src="img/logo.jpeg" alt="logo" id="logo"> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                  <div class="collapse navbar-collapse" id="mynavbar">
+
+                      <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="javascript:void(0)">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="javascript:void(0)">Pacotes</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="javascript:void(0)">Contatos</a>
+                        </li>
+                      </ul>
+                      
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Pesquisar">
+                        <button class="btn btn-primary" type="button">Buscar</button>
+                      </form>
+                  </div>
             </div>
           </nav>
     </header>
     <main>
-        <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-  </div>
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      </div>
 
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/dunas.jpg" alt="Praia do Paredão - Miracema" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="img/palacio.jpg" alt="Dunas do Jalapão" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="img/praia-graciosa.jpg" alt="Praia da Graciosa - Palmas" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <video class="img-fluid" autoplay loop muted>
-        <source src="video/tocantins.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
 
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+        <!-- Img 1 -->
+        <img src="img/praia-do-paredao.jpg" alt="Praia do Paredão - Miracema" class="d-block w-100">
+        <div class="carousel-caption">
+            <h3>Miracema</h3>
+            <p>Conheça essa Maravilhosa Cidade e sua Praia maravilhosa
+        </div>
+        </div>
+
+        <!-- Img 2 -->
+        <div class="carousel-item">
+          <img src="img/dunas.jpg" alt="Dunas do Jalapão" class="d-block w-100">
+          <div class="carousel-caption">
+            <h3>Jalapão</h3>
+            <p>Conheça os Encantos e as Dunas deste lugar</p>
+        </div>
+        </div>
+
+        <!-- Img 3 -->
+        <div class="carousel-item">
+          <img src="img/palacio.jpg" alt="Praia da Graciosa - Palmas" class="d-block w-100">
+          <div class="carousel-caption">
+            <h3>Palmas</h3>
+            <p>Conheça a Capital do Estado</p>
+        </div>
+        </div>
+
+        <!-- Vídeo -->
+        <div class="carousel-item">
+          <video class="img-fluid" autoplay loop muted width="100%">
+            <source src="video/tocantins.mp4" type="video/mp4">
+          </video>
+          <div class="carousel-caption">
+            <h3>Conheça o Jalapão</h3>
+            <p>O Paraíso Tocantinense</p>
+        </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="container-fluid divisao">
+      <h2>Conheça o Tocantins</h2>
+    </div>
+
+      <!-- Pacotes -->
+      <section class="row sec-pacotes">
+
+        <!-- Card 1 -->
+        <div class="card col-3" style="width:300px">
+          <img class="card-img-top" src="img/fervedouro.jpg" alt="Jalapão">
+          <div class="card-body">
+            <h4 class="card-title">Jalapão</h4>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, necessitatibus culpa ullam cumque atque debitis repudiandae possimus accusamus dicta distinctio minima accusantium. Quaerat deserunt beatae quis delectus! Magnam, magni delectus.</p>
+            <a href="#" class="btn btn-primary">Comprar Pacote</a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card col-3" style="width:300px">
+          <img class="card-img-top" src="img/palacio.jpg" alt="Palmas">
+          <div class="card-body">
+            <h4 class="card-title">Palmas</h4>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, necessitatibus culpa ullam cumque atque debitis repudiandae possimus accusamus dicta distinctio minima accusantium. Quaerat deserunt beatae quis delectus! Magnam, magni delectus.</p>
+            <a href="#" class="btn btn-primary">Comprar Pacote</a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card col-3" style="width:300px">
+          <img class="card-img-top" src="img/praia-do-paredao.jpg" alt="Praia do Paredão">
+          <div class="card-body">
+            <h4 class="card-title">Miracema</h4>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, necessitatibus culpa ullam cumque atque debitis repudiandae possimus accusamus dicta distinctio minima accusantium. Quaerat deserunt beatae quis delectus! Magnam, magni delectus.</p>
+            <a href="#" class="btn btn-primary">Comprar Pacote</a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card col-3" style="width:300px">
+          <img class="card-img-top" src="img/taquarucu.jpg" alt="Taquaruçu">
+          <div class="card-body">
+            <h4 class="card-title">Taquaruçu</h4>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, necessitatibus culpa ullam cumque atque debitis repudiandae possimus accusamus dicta distinctio minima accusantium. Quaerat deserunt beatae quis delectus! Magnam, magni delectus.</p>
+            <a href="#" class="btn btn-primary">Comprar Pacote</a>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="container-fluid divisao">
+        <h2>Fale Conosco</h2>
+      </div>
+
+      <!-- Contato -->
+      <section class="row sec-contact">
+        <div class="col-6">
+        <form action="">
+          <div class="mb-3 mt-3">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" name="nome">
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail:</label>
+            <input type="email" class="form-control" id="email" placeholder="Informe seu e-mail" name="email">
+          </div>
+
+          <div class="mb-3">
+            <label for="comment" class="form-label">Mensagem</label>
+            <input type="text" class="form-control" id="comment" placeholder="Escreva sua mensagem" name="comment">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+        </div>
+
+        <!--Mapa-->
+        <div class="col-6">
+          <div class="mapBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d694.2074924139048!2d-48.33429398144499!3d-10.178167802300981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9324cb714b8f8f1f%3A0xb051fee550c22336!2sFedera%C3%A7%C3%A3o%20do%20Com%C3%A9rcio%20de%20Bens%2C%20Servi%C3%A7os%20e%20Turismo%20do%20Estado%20do%20Tocantins%20-%20Fecom%C3%A9rcio!5e0!3m2!1spt-BR!2sbr!4v1743449485578!5m2!1spt-BR!2sbr" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </section>
+
     </main>
     <footer class="fixed-bottom">
         <h6>&copy; TocantinsTur - Powered by IGCSTECHNOLOGY</h6>
