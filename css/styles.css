@@ -20,17 +20,21 @@ body{
     border-radius: 5px !important;
     font-weight: bold !important;
     border-color: white !important;
+    margin-right: 4em !important;
 }
 
+.carousel-inner, carousel-item{
+    transition: transform 1s ease-in-out !important;
+}
 
 .carousel-caption {
     background-color: rgba(82, 77, 77, 0.739) !important;
     width: 100%;
     position: absolute; /* Makes sure it's positioned over the image */
-    
     left: 0;
     text-align: center; /* Centers the text */
     color: white; /* Ensures the text is visible */
+    margin-bottom: 0 !important;
 }
 footer{
     color: white !important;
@@ -44,6 +48,7 @@ footer{
     color: white !important;
     text-align: center !important;
     padding: 2em !important;
+    margin: 0 !important;
 }
 
 .sec-pacotes{
@@ -68,4 +73,47 @@ footer{
 #logo{
     width: 7% !important;
     border-radius: 50% !important;
+}
+
+@media (min-width: 200px) and (max-width:768px) {
+    .nav-link{
+        color: white !important;
+        background-color: #645a52 !important;
+        margin: 0.3em !important;
+        border-radius: 5px !important;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .btn-primary{
+        background-color: #645a52 !important;
+        margin: 0.3em !important;
+        border-radius: 5px !important;
+        font-weight: bold !important;
+        border-color: white !important;
+       
+    }
+
+    #logo{
+        width: 12% !important;
+        border-radius: 50% !important;
+    }
+
+    .divisao{
+        background-color: #db6415 !important;
+        color: white !important;
+        text-align: center !important;
+        padding: 1em !important;
+        margin: 0 !important;
+    }
+
+    .carousel-caption {
+        background-color: rgba(82, 77, 77, 0.739) !important;
+        width: 100% !important;
+        position: absolute !important; /* Makes sure it's positioned over the image */
+        left: 0 !important;
+        text-align: center !important; /* Centers the text */
+        color: white !important; /* Ensures the text is visible */
+        padding: 0.2em !important;
+    }
 }
